@@ -15,15 +15,29 @@ li.octocat{
 	line-height: 400px;
 	text-align: center;
 	list-style: none;
+	display: block;
+	position: relative;
 
 }
 
 ul img:first-child{
 	height: 400px;
 	width: 400px;
-	border: 1px solid #d3d3d3;
 	display: inline-flex;
+	border: 1px solid #d3d3d3; 
 	
+}
+
+.octocat:after{
+	content: "";
+	width: 0;
+	height: 0;
+	border-style: solid;
+	border-width: 8px 7px 0 7px;
+	border-color: #d3d3d3 transparent transparent transparent;
+	position: absolute;
+	top: 402px;
+	left: 380px;
 }
 
 ul.authors img{
