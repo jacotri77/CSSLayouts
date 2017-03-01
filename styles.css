@@ -1,8 +1,8 @@
 ul.octodex{
 	display: flex;
 	flex-direction: row;
-	flex-wrap: nowrap;
-	padding: 10px;
+	flex-wrap: wrap;
+	padding: 20px;
 	justify-content: space-between;
 
 }
@@ -11,7 +11,7 @@ li.octocat{
 	flex-basis: auto;
 	height: 400px;
 	width: 400px;
-	margin: 15px;
+	margin: 45px;
 	line-height: 400px;
 	text-align: center;
 	list-style: none;
@@ -62,7 +62,6 @@ li {
 
 }
 
-
 a{
 	text-decoration: none;
 	color: black;
@@ -72,7 +71,6 @@ a{
 	flex-basis: auto;
 	margin-right: 0px;
 	
-
 }
 
 .image-number{
